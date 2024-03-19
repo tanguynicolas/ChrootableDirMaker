@@ -4,12 +4,12 @@
 
 # User variables
 ENV="newroot"
-USER_TO_IMPORT="tnya"
+USER_TO_IMPORT=""
 DIR_TO_IMPORT="to_import"
 SHELL_TO_IMPORT=(/bin/bash /usr/bin/bash)
 COMMANDS_TO_IMPORT=( id ls whoami hostname curl ps lighttpd uftpd nc ngircd dropbear )
-SSH_PUBKEY_FILE=/home/tnya/.ssh/vm.pub # For Dropbear only
-SSH_PRIVKEY_FILE=/home/tnya/.ssh/vm    # For Dropbear only
+SSH_PUBKEY_FILE="" # For Dropbear only
+SSH_PRIVKEY_FILE=""    # For Dropbear only
 
 RED='\033[0;31m'
 CYAN='\033[0;36m'

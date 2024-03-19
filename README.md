@@ -23,7 +23,7 @@ sudo systemctl disable dropbear
 
 ### Fill vars
 
-Configure ENV, USER_TO_IMPORT, DIR_TO_IMPORT, SHELL_TO_IMPORT, COMMANDS_TO_IMPORT, SSH_PUBKEY_FILE, SSH_PRIVKEY_FILE vars from script.
+Configure at least USER_TO_IMPORT, SSH_PUBKEY_FILE, SSH_PRIVKEY_FILE vars from script.
 
 ## Develop
 
