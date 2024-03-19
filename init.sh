@@ -28,7 +28,6 @@ NC='\033[0m'
 [[ -z ${SSH_PRIVKEY_FILE} ]]   && echo "Please fill USER_TO_IMPORT var from $0."     && exit 1
 
 delete_env() {
-    umount $ENV/dev/log --force 2> /dev/null
     umount $ENV/proc    --force 2> /dev/null
     umount $ENV/dev/pts --force 2> /dev/null
     rm -rf $ENV
