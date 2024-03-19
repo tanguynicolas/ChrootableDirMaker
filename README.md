@@ -7,6 +7,8 @@ Tested on Debian 12 (Linux 6.1.0-18-amd64).
 
 Just start script in root to see usage: `sudo ./init.sh` *(trust me, lol)*.
 
+📝 This script will remove `/root/.ssh/known_hosts` all time you use `test` subcommand.
+
 ## Usage
 
 ![Script usage](./usage.png)
