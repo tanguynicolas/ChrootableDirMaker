@@ -5,7 +5,7 @@ Tested on Debian 12 (Linux 6.1.0-18-amd64).
 
 *This script is not optimal and does not necessarily follow best practices. Its aim was to get us to manipulate the chroot command.*
 
-Just start script in root to see usage: `sudo ./ChrootDirMaker.sh` *(trust me, lol)*.
+Just start script in root to see usage: `sudo ./init.sh` *(trust me, lol)*.
 
 ## Usage
 
