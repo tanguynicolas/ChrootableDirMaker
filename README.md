@@ -22,7 +22,7 @@ curl -sS https://deb.troglobit.com/pubkey.gpg | sudo apt-key add -
 echo "deb [arch=amd64] https://deb.troglobit.com/debian stable main" | sudo tee /etc/apt/sources.list.d/troglobit.list
 
 sudo apt update
-sudo apt install -y curl lighttpd ngircd dropbear uftpd
+sudo apt install -y curl lighttpd ngircd dropbear uftpd irssi lftp
 
 sudo systemctl disable lighttpd
 sudo systemctl disable ngircd
